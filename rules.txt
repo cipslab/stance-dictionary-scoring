@@ -1,0 +1,26 @@
+0	certainty	adv	actually|admittedly|assuredly|avowedly|certainly|decidedly|definitely|evidently|in actuality|incontestably|incontrovertibly|indeed|indisputably|indubitably|in fact|in reality|in certainty|with certainty|irrefutably|manifestly|obviously|of course|patently|unambiguously|unarguably|undeniably|undoubtedly|unmistakably|unquestionably|without doubt|without question
+1	certainty	adv	to be (certain|clear|realistic|sure)
+2	certainty	adv	"(clearly|plainly|surely),"
+3	certainty	verb	(i|we) (($rules[0]) )?((are|be|can|could|dare|do|have|is|may|might|must|need|ought|ought to|shall|should|will|would) )?(calculate|conclude|deduce|demonstrate|determine|discern|establish|know|note|perceive|prove|realize|find that|show that)
+4	certainty	verb	$pass (ascertained|calculated|concluded|deduced|demonstrated|determined|discerned|established|known|noted|perceived|proved|realized)
+5	certainty	verb	$pass (found|shown) that
+6	certainty	verb	(the|this|that|it) (.*? )?(shows|proves|demonstrates)
+7	certainty	verb	(these|those) .*? (show|prove|demonstrate)
+8	certainty	verb	it ($rules[0]) follows that
+9	certainty	adj	certain|evident|impossible|inconceivable|incontestable|incontrovertible|indisputable|indubitable|irrefutable|known|manifest|obvious|patent|true|unambiguous|unarguable|undeniable|undoubted|unmistakable|unquestionable|untrue|well-known
+10	certainty	adj	(it|that) (($rules[0]) )?(is|is not|isn\'t|was|was not|wasn\'t|will be|will not be|won't be|seems) (apparent|clear|definite|plain|sure)
+11	certainty	adj	(i|we) (($rules[0]) )?(are|are not|aren\'t|were|were not|weren\'t|will be|will not be|won\'t be|seem) (convinced|definite|plain|sure)
+12	certainty	emphatics	a lot|do (calculate|conclude|deduce|demonstrate|determine|discern|establish|know|note|perceive|prove|realize|find that|show that|)|for sure|just|(real|so) ($16)|really|more|most|so ($0)|such a
+13	certainty	predictive modals	can|can not|can\'t|might|might not|could|could not|couldn\'t
+14	doubt	adv	allegedly|apparently|arguably|conceivably|ostensibly|perchance|perhaps|possibly|presumably|purportedly|reportedly|reputedly|seemingly|supposedly|formally|hypothetically|ideally|likely|officially|outwardly|superficially|technically|theoretically
+15	doubt	verb	(i|we) (($rules[14]) )?((are|be|can|could|dare|do|have|is|may|might|must|need|ought|ought to|shall|should|will|would) )?(disbelieve|expect|feel|gather|imagine|sense|think)
+16	doubt	verb	(i|we) (assume|conjecture|doubt|estimate|guess|hypothesi[zs]e|infer|postulate|presume|speculate|suppose|surmise|suspect|wonder if|wonder whether)
+17	doubt	verb	$pass (assumed|conjectured|disbelieved|doubted|estimated|expected|felt|gathered|guessed|hypothesi[zs]ed|imagined|inferred|postulated|presumed|sensed|speculated|supposed|surmised|suspected|thought) 
+18	doubt	verb	(the|this|that|it) (.*? )?(intimates|suggests)
+19	doubt	verb	(the|these|those) .*? (intimate|suggest)
+20	doubt	verb	appear|appears|assumes|implies|indicates|presumes|seem|seems
+21	doubt	adj	alleged|arguable|conceivable|disputable|doubtful|dubious|imaginable|improbable|likely|possible|presumable|probable|questionable|reputed|supposed|uncertain|unlikely
+22	doubt	adj	(it|that) (($rules[14]) )?(is|was|will be|seems) (indefinite|unclear|unsure)
+23	doubt	adj	(i|we) (($$rules[14]) )?(are|am|were|will be|seem) (unclear|unsure)
+24	doubt	possibility modals	ought|ought not|should|should not|shouldn\'t|must|must not|mustn\'t
+25	doubt	necessity modals	will|will not|won\'t|would|would not|wouldn\'t
