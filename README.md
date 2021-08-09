@@ -7,4 +7,4 @@ While Bieber & Finegan used part-of-speech tagging to implement their rules; how
 ```
 it/that (ADV) BE/SEEM______: apparent, clear, definite, plain, sure (frame includes contracted forms)
 ```
-It is unclear whether any adverb may appear in the indicated spot. The approach here was that since this is a certainty rule, certainty adverbs defined in another rule were used for the match.
+The regex simply looks for the adjectives, and doesn't test whether *any* adverb appears in the indicated pattern. Instead, the approach here was that since this is a certainty rule, certainty adverbs defined in another rule were used for the match.
